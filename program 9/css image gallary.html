@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS Image Gallery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f9f9f9;
+        }
+        h2 {
+            text-align: center;
+            color: #333;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+            padding: 20px;
+        }
+        .gallery img {
+            width: 200px;
+            height: 150px;
+            border-radius: 8px;
+            transition: 0.3s;
+            border:2px solid;
+            object-fit: cover;
+        }
+
+    </style>
+</head>
+<body>
+    <h2> Anime Characters</h2>
+    <div class="gallery">
+        <img src="gojo.jpg" alt="Image 1">
+        <img src="goku.jpg" alt="Image 2">
+        <img src="livai.jpg" alt="Image 3">
+        <img src="saitama.jpg" alt="Image 4">
+    </div>
+</body>
+</html>
