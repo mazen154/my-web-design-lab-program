@@ -1,0 +1,127 @@
+Introduction to GitHub and Version Control Tools
+What is Version Control?
+
+Version Control is a system that records changes to files over time so that you can recall specific versions later.
+It helps developers collaborate on projects, track code changes, and manage different versions of software efficiently.
+
+Benefits of Version Control:
+
+Keeps track of every change in the project
+Helps in collaboration among multiple developers
+Allows rollback to previous versions
+Avoids overwriting code
+Provides backups and a history of all work
+
+
+
+
+
+ Git
+
+Git is an open-source, distributed version control system created by Linus Torvalds in 2005.
+It allows every developer to have a full copy of the project history on their local system.
+
+Main Features:
+
+Distributed architecture (every user has the complete repository)
+
+Fast branching and merging
+
+Offline work capability
+
+Tracks changes efficiently with commits
+
+Common Git Commands:
+
+git init → Initialize a repository
+
+git add → Stage files
+
+git commit → Save changes
+
+git push → Upload to remote repository (like GitHub)
+
+git pull → Fetch and merge updates
+
+
+
+
+
+
+ Concurrent Versions System (CVS)
+
+CVS is one of the earliest version control systems, developed in the 1980s.
+It is a centralized version control system, meaning all files are stored in a central repository, and users check out files to make changes.
+
+Features:
+
+Centralized architecture
+
+Simple and stable for small projects
+
+Basic branching and merging support
+
+Limitations:
+
+Slower compared to modern tools
+
+Limited support for atomic commits
+
+Merging conflicts can be complex
+
+
+
+
+
+
+Apache Subversion (SVN)
+
+Apache Subversion (SVN) is an improved centralized version control system, developed as a successor to CVS.
+It is widely used for managing source code and documentation.
+
+Features:
+
+Centralized repository model
+
+Better performance than CVS
+
+Supports atomic commits (either full commit or nothing)
+
+Efficient handling of binary files
+
+Access control and authentication features
+
+Command Example:
+
+svn checkout → Get a working copy
+
+svn commit → Send changes to the server
+
+
+
+
+
+ Mercurial
+
+Mercurial is a distributed version control system similar to Git, designed for high performance and simplicity.
+It is written in Python and is known for being easy to learn and use.
+
+Features:
+
+Distributed architecture (like Git)
+
+Simple command structure
+
+Fast and scalable for large projects
+
+Supports branching and merging
+
+Common Commands:
+
+hg init → Initialize repository
+
+hg add → Add files
+
+hg commit → Record changes
+
+hg push → Upload to remote repo
